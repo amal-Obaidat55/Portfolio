@@ -69,8 +69,8 @@ Graduated with Excellent Standing
 
 ## Contact
 - Email: amalobaidat065@gmail.com
-- LinkedIn: linkedin.com/in/amal-obaidat-153306365
-- GitHub: github.com/amal-Obaidat55
+- LinkedIn: https://linkedin.com/in/amal-obaidat-153306365
+- GitHub: https://github.com/amal-Obaidat55
 
 ## Author
 - Amal Obaidat
