@@ -692,23 +692,24 @@ body {
 
     .qualiCards {
         padding: 20px;
+        
     }
 
     .icon img {
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     .qualiName {
-        font-size: 1rem;
-    }
-
-    .from {
         font-size: 0.8rem;
     }
 
+    .from {
+        font-size: 0.6rem;
+    }
+
     .moreDetails {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
 }
