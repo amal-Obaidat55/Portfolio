@@ -1,4 +1,5 @@
 # Amal Obaidat portfolio
+[Open Portfolio Website](https://amal-obaidat55.github.io/Portfolio/)
 
 ## Description
 A personal portfolio website that showcases my journey as a Computer Science graduate,Full-Stack Development Trainee, and aspiring web developer 
