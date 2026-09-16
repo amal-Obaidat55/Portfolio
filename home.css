@@ -973,7 +973,7 @@ body {
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2rem;
 
 }
 
@@ -1075,6 +1075,9 @@ input[name="imgs"] {
 }
 
 @media (max-width:480px) {
+    .projects{
+        padding: 1rem;
+    }
     .proName p {
         padding: 5px;
         font-size: 0.8rem;
@@ -1104,6 +1107,7 @@ input[name="imgs"] {
 }
 
 @media (min-width:481px) and (max-width:768px) {
+    
     .proName p{
         font-size: 1rem;
     }
