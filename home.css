@@ -41,14 +41,28 @@ body {
 }
 
 .mainHero {
-    padding: 10px;
-    height: 100vh;
-    background-image: url(images/PBack.jpg);
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10px;
+    height: 100dvh;
+    overflow: hidden;
     display: flex;
+    z-index: 2;
 }
-
+.backVideo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2000;
+    object-fit: cover;
+}
+.over{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    inset: 0;
+    z-index: -1;
+}
 .grid2 {
     padding: 20px;
     flex: 1;
@@ -1162,9 +1176,6 @@ input[name="imgs"] {
 
 .refPoint {
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .refCards{
@@ -1182,12 +1193,10 @@ input[name="imgs"] {
     justify-content: start;
     
 }
-.RCard1 p{
+.RCard1 p, .RCard2 p{
     padding-left: 1rem;
 }
-.RCard2 p{
-     padding-left: 1rem;
-}
+
 .nameImg{
     display: flex;
     justify-items: center;
